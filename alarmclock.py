@@ -1,6 +1,6 @@
-import time
-import winsound
-def alarm():
+import time #import time library
+import winsound #import winsound library
+def alarm(): #function for producing beep
     duration=1000
     freq=440
     for i in range(10):
